@@ -1,0 +1,29 @@
+header{
+    border: solid black;
+    text-align:center;
+}
+nav ul{
+     list-style:none;
+     border: 1px solid black;
+     width: 10%;
+     height: 1000px;
+     background-color: gray;
+     color: white;
+     float:left;
+}
+table {
+    margin:auto;
+}
+.name {
+     text-align:center;
+     border-bottom: 1px dotted black;
+}
+.img {
+     text-align:center;
+     border: 1px solid black;
+     padding: 10px;
+}
+#none {
+    padding: 100px;
+    border: 1px solid black;
+}
