@@ -1,12 +1,13 @@
 #contents {
-    background:url("./고양이.jpg") no-repeat
+    background:url("./고양이.jpg") no-repeat;
     background-size: cover;
     width: 800px;
     height: 500px;
     margin: 0 auto;
+    position: relative;
 }
 
-h1{
+h1 {
     color: white;
     font-size: 120px;
     text-shadow: 2px 3px 0 black;
