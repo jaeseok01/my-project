@@ -25,13 +25,22 @@ h1 {
 .prod-list .caption {
   position: absolute;
   top: 200px;
-  width: 300px;
-  height: 200px;
+  width: 282px;
+  height: 179px;
   background-color:rgba(0,0,0,0.5);
   opacity: 0;
   z-index: 10;
+  transition-duration: 1s;
 }
-#one:hover {
-  opacity: 100;
-  transform: translateY(-50px);
+.img1:hover ~ .caption{
+  transform:translateY(-200px);
+  opacity:100;
+}
+h2,p {
+  color:white;
+  text-align:center;
+}
+img {
+  width: 282px;
+  height: 179px;
 }
