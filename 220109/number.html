@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>숫자</title>
+</head>
+<body>
+<div id="number">0</div>
+    <button onclick="up()">증가</button>
+    <button onclick="down()">감소</button>
+    <button onclick="reset()">초기화</button>
+<script>
+    function up(){
+    var n1 = document.getElementById("number").innerText;
+    var n = Number(n1);
+    document.querySelector("#number").innerText =Number(n)+1;
+    }
+    function down(){
+    var n1 = document.getElementById("number").innerText;
+    var n = Number(n1);
+    document.querySelector("#number").innerText =Number(n)-1;
+    }
+    function reset(){
+    var n1 = document.getElementById("number");
+    var n = Number(n1);
+    document.querySelector("#number").innerText = 0;
+    }
+</script>
+</body>
+</html>
