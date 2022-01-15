@@ -12,17 +12,13 @@
 <script>
     function up(){
     var n1 = document.getElementById("number").innerText;
-    var n = Number(n1);
-    document.querySelector("#number").innerText =Number(n)+1;
+    document.querySelector("#number").innerText =Number(n1)+1;
     }
     function down(){
     var n1 = document.getElementById("number").innerText;
-    var n = Number(n1);
-    document.querySelector("#number").innerText =Number(n)-1;
+    document.querySelector("#number").innerText =Number(n1)-1;
     }
     function reset(){
-    var n1 = document.getElementById("number");
-    var n = Number(n1);
     document.querySelector("#number").innerText = 0;
     }
 </script>
