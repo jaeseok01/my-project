@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>캘러리</title>
+    <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+<div id="main">
+    <div id="header">
+        <h1>블로그</h1>
+        <ul id="ul">
+            <li id="home" class="li"><a href="#" onclick="location.href='index.html'" style="text-decoration:none; color:black;">홈</a></li>
+            <li class="li"><a href="#" onclick="location.href='article1.html'" style="text-decoration:none; color:black;">글1</a></li>
+            <li class="li"><a href="#" onclick="location.href='article2.html'" style="text-decoration:none; color:black;">글2</a></li>
+            <li class="li"><a href="#" onclick="location.href='gallery.html'" style="text-decoration:none; color:black;">갤러리</a></li>
+        </ul>
+    </div>
+    <div id="sidebar">
+        <div id="side">
+            <div id="img"><img src="img/사진.jpg" alt="사진" width="300px"></div>
+            <h1>허재석</h1>
+            <h3>010-1234-5678</h3>
+            <h3>E 이메일</h3>
+            <hr>
+            <h3>.</h3>
+        </div>
+    </div>
+    <div id="which">
+        <ul>
+            <li><a href="#div1">게임</a></li>
+            <li><a href="#div2">웹툰</a></li>
+        </ul>
+    </div>
+    <div id="gallery">
+        <table>
+            <caption id="div1"><h2>게임</h2></caption>
+            <thead>
+                <tr>
+                    <td><iframe width="560" height="315" src="https://www.youtube.com/embed/4bv_qjqvWtU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+                    <td><img src="img/마크.jpg" alt="마인크래프트"></td>
+                    <td><img src="img/오버워치.jpg" alt="오버워치"></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="name">발로란트</td>
+                    <td class="name">마인크래프트</td>
+                    <td class="name">오버워치</td>
+                </tr>
+            </tbody>
+        </table>
+        <table id="right">
+            <caption id="div2"><h2>웹툰</h2></caption>
+            <thead>
+            <tr>
+                <td><img src="img/사신소년.jpg" alt="사신소년"></td>
+                <td><img src="" alt="입학용병"></td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="name">사신소년</td>
+                <td class="name">입학용병</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>
