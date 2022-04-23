@@ -26,9 +26,9 @@
         </div>
         <div id="sidebar">
             <div id="side">
-                <div id="img"><img src="img/사진.jpg" alt="사진" width="300px"></div>
-                <h1>허재석</h1>
-                <h3>010-1234-5678</h3>
+                <div id="img"><img src="img/사진.jpg" alt="사진" width="100%"></div>
+                <h1>발로란트</h1>
+                <h3>010-XXXX-XXXX</h3>
                 <h3>E 이메일</h3>
                 <hr>
                 <h3>.</h3>
@@ -36,18 +36,58 @@
         </div>
         <div id="contents">
             <div id="con">
-                <div id="img2"><img src="img/배너 사진.png" alt="배너 사진" height="400px"></div>
+                <div id="img2"><div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="img/배너 사진.png" class="d-block w-100" alt="배너사진" style="height: 398px;">
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="..." class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="..." class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div></div>
                 <a href="#" onclick="location.href='article1.html'" style="text-decoration:none; color:black;"><div class="write">글1</div></a>
                 <a href="#" onclick="location.href='article2.html'" style="text-decoration:none; color:black;"><div class="write">글2</div></a>
                 <div class="write">글3</div>
             </div>
         </div>
         <div id="footer">
-            <div id="foot">
-                <div class="end"><h3>블로그</h3></div>
-                <div class="end"><p>연락처</p></div>
-                <div class="end"><h3>.</h3></div>
-            </div>
+                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                    <p class="col-md-4 mb-0 text-muted">© 2022,valorant</p>
+
+
+
+                    <ul class="nav col-md-4 justify-content-end">
+                        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">010-XXXX-XXXX</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">.</a></li>
+                    </ul>
+                </footer>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
