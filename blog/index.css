@@ -11,7 +11,7 @@
 }
 #contents {
     width:79.9%;
-    height: 80%;
+    height: 800px;
     float:left;
 }
 #footer {
@@ -30,7 +30,7 @@
    float:left;
 }
 #side {
-    height: 600px;
+    height: 800px;
     width: 90%;
     margin: 5% 0 0 5%;
 }
@@ -51,7 +51,7 @@
 }
 .write {
     border: 1px solid black;
-    height: 180px;
+    height: 380px;
     width: 33%;
     float:left;
     margin: 5px 1px;
