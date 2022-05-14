@@ -9,25 +9,32 @@
 <body>
 <div id="main">
     <div id="header">
-        <h1>블로그</h1>
-        <ul id="ul">
-            <li id="home" class="li"><a href="#" onclick="location.href='index1.html'" style="text-decoration:none; color:black;">홈</a></li>
-            <li class="li"><a href="#" onclick="location.href='article1.html'" style="text-decoration:none; color:black;">글1</a></li>
-            <li class="li"><a href="#" onclick="location.href='article2.html'" style="text-decoration:none; color:black;">글2</a></li>
-            <li class="li"><a href="#" onclick="location.href='gallery.html'" style="text-decoration:none; color:black;">갤러리</a></li>
-            <li style="font-size:20px;"><a href="#" onclick="location.href='notice.html'" style="text-decoration:none; color:black;">공지 사항</a></li>
-        </ul>
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                <span class="fs-4">블로그</span>
+            </a>
+
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page" onclick="location.href='index1.html'" style="margin: 2px;">홈</a></li>
+                <li class="nav-item"><a href="#" class="nav-link active"  onclick="location.href='article1.html'" style="margin: 2px;">소개</a></li>
+                <li class="nav-item"><a href="#" class="nav-link active" style="margin: 2px;" onclick="location.href='article2.html'">글</a></li>
+                <li class="nav-item"><a href="#" class="nav-link active" style="margin: 2px;" onclick="location.href='gallery.html'">갤러리</a></li>
+                <li class="nav-item"><a href="#" class="nav-link active" style="margin: 2px;" onclick="location.href='notice.html'">공지 사항</a></li>
+            </ul>
+        </header>
     </div>
     <div id="sidebar">
         <div id="side">
-            <div id="img"><img src="img/사진.jpg" alt="사진" width="300px"></div>
-            <h1>허재석</h1>
-            <h3>010-1234-5678</h3>
-            <h3>E 이메일</h3>
+            <div id="img"><img src="img/사진.jpg" alt="사진" width="100%" style="border: 2px solid black"></div>
+            <h2 class="display-5 fw-bold">발로란트</h2>
+            <h5>010-XXXX-XXXX</h5>
+            <p>E 이메일</p>
             <hr>
-            <h3>.</h3>
+            <p style="font-size:20px;">..</p>
         </div>
     </div>
+
     <div id="which">
         <ul>
             <li><a href="#div1">게임</a></li>
@@ -36,8 +43,9 @@
     </div>
     <div id="gallery">
         <table>
-            <caption id="div1"><h2>게임</h2></caption>
+            <caption><h2>게임</h2></caption>
             <thead>
+                <p  id="div1"></p>
                 <tr>
                     <td><iframe width="560" height="315" src="https://www.youtube.com/embed/4bv_qjqvWtU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
                     <td><img src="img/마크.jpg" alt="마인크래프트"></td>
@@ -53,8 +61,9 @@
             </tbody>
         </table>
         <table id="right">
-            <caption id="div2"><h2>웹툰</h2></caption>
+            <caption><h2>웹툰</h2></caption>
             <thead>
+            <p  id="div2"></p>
             <tr>
                 <td><img src="img/사신소년.jpg" alt="사신소년"></td>
                 <td><img src="img/입학용병.jpg" alt="입학용병"></td>

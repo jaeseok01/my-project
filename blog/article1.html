@@ -8,27 +8,33 @@
 </head>
 <body>
 <div id="header">
-    <h1>블로그</h1>
-    <ul id="ul">
-        <li id="home" class="li"><a href="#" onclick="location.href='index1.html'" style="text-decoration:none; color:black;">홈</a></li>
-        <li class="li"><a href="#" onclick="location.href='article1.html'" style="text-decoration:none; color:black;">글1</a></li>
-        <li class="li"><a href="#" onclick="location.href='article2.html'" style="text-decoration:none; color:black;">글2</a></li>
-        <li class="li"><a href="#" onclick="location.href='gallery.html'" style="text-decoration:none; color:black;">갤러리</a></li>
-        <li style="font-size:20px;"><a href="#" onclick="location.href='notice.html'" style="text-decoration:none; color:black;">공지 사항</a></li>
-    </ul>
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            <span class="fs-4">블로그</span>
+        </a>
+
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page" onclick="location.href='index1.html'" style="margin: 2px;">홈</a></li>
+            <li class="nav-item"><a href="#" class="nav-link active"  onclick="location.href='article1.html'" style="margin: 2px;">소개</a></li>
+            <li class="nav-item"><a href="#" class="nav-link active" style="margin: 2px;" onclick="location.href='article2.html'">글</a></li>
+            <li class="nav-item"><a href="#" class="nav-link active" style="margin: 2px;" onclick="location.href='gallery.html'">갤러리</a></li>
+            <li class="nav-item"><a href="#" class="nav-link active" style="margin: 2px;" onclick="location.href='notice.html'">공지 사항</a></li>
+        </ul>
+    </header>
 </div>
 <div id="sidebar">
     <div id="side">
-        <div id="img"><img src="img/사진.jpg" alt="사진" width="300px"></div>
-        <h1>허재석</h1>
-        <h3>010-1234-5678</h3>
-        <h3>E 이메일</h3>
+        <div id="img"><img src="img/사진.jpg" alt="사진" width="100%" style="border: 2px solid black"></div>
+        <h2 class="display-5 fw-bold">발로란트</h2>
+        <h5>010-XXXX-XXXX</h5>
+        <p>E 이메일</p>
         <hr>
-        <h3>.</h3>
+        <p style="font-size:20px;">..</p>
     </div>
 </div>
 <div id="contents">
-    <h1>허재석</h1>
+    <h1 style="padding: 2% 5% 0% 5%;" class="fw-bold mb-0">허재석</h1>
     <div id="top">분류:</div>
     <div id="me">
         <div id="name">허재석</div>
@@ -36,7 +42,7 @@
         <table>
             <tr>
                 <td class="left"><strong>출생</strong></td>
-                <td class="right">2007년 1월 7일(16살)</td>
+                <td class="right">2007년 1월 7일</td>
             </tr>
             <tr>
                 <td class="left"><strong>국적</strong></td>
