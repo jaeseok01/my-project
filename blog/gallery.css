@@ -8,6 +8,16 @@
     border-right: 1px solid black;
     float:left;
 }
+#side {
+    height: 800px;
+    width: 90%;
+    margin: 5% 0 0 5%;
+}
+#img {
+    height: 46%;
+    width: 80%;
+    margin: 0 5.99%;
+}
 #contents {
     width:79.9%;
     height: 600px;
@@ -49,6 +59,7 @@ td {
     float:left;
     width: 10%;
     height: 200px;
+    border: 1px solid gray;
 }
 li {
     font-size:20px;
