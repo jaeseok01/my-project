@@ -13,7 +13,7 @@
 }
 #sidebar {
     width: 20%;
-    height: 1700px;
+    height: 1500px;
     border-right: 1px solid black;
     float:left;
 }
@@ -35,7 +35,7 @@
 #all {
     width: 50%;
     height:1000px;
-    margin: 20% 25%;
+    margin: 10% 25%;
 }
 .left {
     height: 200px;
@@ -57,4 +57,8 @@
 }
 #footer {
     background-color: #BEC0C6;
+}
+.link {
+    color:black;
+    float:right;
 }
