@@ -31,11 +31,13 @@
     width:79.9%;
     height: 1500px;
     float:left;
+    background-color:#000033;
 }
 #all {
     width: 50%;
     height:1000px;
     margin: 10% 25%;
+    color:white;
 }
 .left {
     height: 200px;
